@@ -1,0 +1,14 @@
+.env
+/.venv/
+/.idea/
+cache.db
+*.txt
+/raw/
+
+# old/ (previous reservation-site-scraper endeavor, see old/README.md)
+/old/output/
+old/data/timetables/pdf/
+old/data/timetables/ocr/
+.DS_Store
+/__pycache__/
+/old/

@@ -1,0 +1,21 @@
+[project]
+name = "msrtc-gtfs-gen"
+version = "0.1.0"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "requests (>=2.31,<3.0)",
+    "certifi (>=2024.2.2)",
+    "scipy (>=1.18.0,<2.0.0)",
+    "beautifulsoup4 (>=4.15.0,<5.0.0)",
+    "pdf2image (>=1.17.0,<2.0.0)",
+    "easyocr (>=1.7.2,<2.0.0)",
+    "rapidfuzz (>=3.14.5,<4.0.0)",
+    "python-dotenv (>=1.2.2,<2.0.0)",
+]
+
+[tool.poetry]
+package-mode = false
+
+[build-system]
+requires = ["poetry-core>=2.0.0"]
+build-backend = "poetry.core.masonry.api"
